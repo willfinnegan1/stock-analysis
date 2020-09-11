@@ -17,7 +17,7 @@ How do these pros and cons apply to refactoring the original VBA script?
 
 
 ### Figure1:
-![](2017 Performance.png)
+![](Resources/2017_Performance.png)
 
 ### Figure2:
-![](2018 Performance.png)
+![](Resources/2018_Performance.png)
