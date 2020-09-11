@@ -11,13 +11,14 @@ The purpose of this analysis was to help a friend, Steve, gather stock market in
  #### Refactoring
 the initial analysis was performed by creating an array of the 12 tickers (figure 3), and then using a loop to identify 3 variables for each ticker: 1) Volume 2) Starting Price 3) ending price (Loop code - see code in figure 4). I found this to be a simple way to pull the necessary data to provide % Return, and volume data to Steve to help inform his decision.
 
-While the first pass got the job done, the coding was not the most efficient. To improve efficiency, i refactored the code. By setting ticker index variable = 0, and declaring Volume, Starting Price, & Ending Price each as a variable, the operator is able to use a for loop (figure 5) to comb through the data, and identify starting and ending prices. ending price determined when the following ticker does not match. 
+While the first pass got the job done, the coding was not the most efficient. To improve efficiency, i refactored the code. By setting ticker index variable = 0, and declaring Volume, Starting Price, & Ending Price each as a variable, the operator is able to use a for loop (figure 5) to comb through the data, and identify starting and ending prices. ending price determined when the following ticker does not match. By Refactoring we decreased the time required to run the macro (see figure 6). The new refactored code decreased run time by 76% and 82% for 2017 and 2018 respectively.
 
  
  ## Summary
- Summary: In a summary statement, address the following questions.
-What are the advantages or disadvantages of refactoring code?
-How do these pros and cons apply to refactoring the original VBA script?
+ In summary, through refactoring the time required to run the macro was drastically reduced. In general, improving efficiency and speed is a good thing and a positve outcome. This is true as long as the process is still repeatable and interpretable. In this case, the benefit is negligible as each run took less than one second and Steven is only looking at two years of data.
+ If this analysis were being done for a larger data set, on a larger set of historical data, perhaps for a securities trading firm, the benefit of refactoring would be great. When you apply efficiency gains to millions of transactions, the benefit is much more tangible. 
+The refactoring excercise did improve efficiency, but will likely be unnoticed by the end user, Steve.
+
 
 
 ### Figure 1:
