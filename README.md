@@ -9,10 +9,9 @@ The purpose of this analysis was to help a friend, Steve, gather stock market in
  Analyzing the series of energy stocks for Steve has led me to several conclusions. In 2017, using the sample of 12 stocks, the energy sector performed well with 11 of 12 stocks (see figure 1) giving positive returns to shareholders. DQ notably was the top performing stock in the sample group in 2017, with a return of 199.4%.  While stock performance across the sample was great in 2017, 2018 did not provide positive returns for the majority of the sampled stocks (see figure 2). in 2018 DQ had a return of -62%, giving back a portion, though not all, of the gains made in 2017.
  
  #### Refactoring
-the initial analysis was performed by creating an array of the 12 tickers (figure 3), and then using a loop to identify 3 variables for each ticker: 1) Volume 2) Starting Price 3) ending price (Loop code - see code in figure 4). i found this to be a simple way to pull the necessary data to provide % Return information to Steve.
+the initial analysis was performed by creating an array of the 12 tickers (figure 3), and then using a loop to identify 3 variables for each ticker: 1) Volume 2) Starting Price 3) ending price (Loop code - see code in figure 4). I found this to be a simple way to pull the necessary data to provide % Return, and volume data to Steve to help inform his decision.
 
-While the first pass may have 
- 
+While the first pass got the job done, the coding was not the most efficient. To improve efficiency, i refactored the code. By setting ticker index variable = 0, and declaring Volume, Starting Price, & Ending Price each as a variable, the operator is able to use a for loop (figure 5) to comb through the data, and identify starting and ending prices. ending price determined when the following ticker does not match. 
 
  
  ## Summary
@@ -32,3 +31,6 @@ How do these pros and cons apply to refactoring the original VBA script?
 
 ### Figure 4:
 ![](Resources/LoopCode_Initial.png)
+
+### Figure 5:
+
