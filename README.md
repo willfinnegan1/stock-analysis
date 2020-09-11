@@ -31,4 +31,4 @@ How do these pros and cons apply to refactoring the original VBA script?
 ![](Resources/ArrayCode_initialpass.png)
 
 ### Figure 4:
-![](Resources/LoopCode_initial.png)
+![](Resources/LoopCode_Initial.png)
