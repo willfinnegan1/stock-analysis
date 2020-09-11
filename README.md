@@ -5,7 +5,7 @@ The purpose of this analysis was to help a friend, Steve, gather stock market in
  
  ## Results
  Using images and examples of your code, compare the stock performance between 2017 and 2018, as well as the execution times of the original script and the refactored script.
- Analyzing the series of energy stocks for Steve has led me to several conclusions. In 2017, using the sample of 12 stocks, the energy sector performed well with 11 of 12 stocks (see figure 1) giving positive returns to shareholders. DQ notably was the top performing stock in the sample group in 2017, with a return of 199.% 
+ Analyzing the series of energy stocks for Steve has led me to several conclusions. In 2017, using the sample of 12 stocks, the energy sector performed well with 11 of 12 stocks (see figure 1) giving positive returns to shareholders. DQ notably was the top performing stock in the sample group in 2017, with a return of 199.4%.  While stock performance across the sample was great in 2017, 2018 did not provide positive returns for the majority of the sampled stocks (see figure 2). in 2018 DQ had a return of -62%, giving back a portion, though not all, of the gains made in 2017.  
  
  
 
