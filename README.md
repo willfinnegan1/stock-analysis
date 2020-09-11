@@ -16,8 +16,8 @@ What are the advantages or disadvantages of refactoring code?
 How do these pros and cons apply to refactoring the original VBA script?
 
 
-### Figure1:
+### Figure 1:
 ![](Resources/2017_Performance.png) 
 
-### Figure2:
+### Figure 2:
 ![](Resources/2018_Performance.png)
