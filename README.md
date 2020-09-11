@@ -33,4 +33,4 @@ How do these pros and cons apply to refactoring the original VBA script?
 ![](Resources/LoopCode_Initial.png)
 
 ### Figure 5:
-
+![](Resources/Refactor_For_Loop.png)
